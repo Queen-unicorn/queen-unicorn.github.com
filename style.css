@@ -1,0 +1,11 @@
+body {
+  background-color: pink;
+  font-family: Arial, sans-serif;
+}
+
+h2{
+  text-align: center;
+  color: gray;
+  background-color: cream;
+  border-radius: 20px;
+}
