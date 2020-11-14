@@ -1,0 +1,146 @@
+header{
+    position: fixed;
+    background-color: black;
+    height: 69px;
+    border-bottom: 1px solid seashell; 
+    display: flex;
+    width: 100%;
+    z-index: 3;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+h2 h3 h4 h6{
+    color: seashell;
+    opacity: 0.7;
+}
+
+#logo{
+    margin-left: 10px;
+}
+
+#bd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-text{
+    text-decoration: underline;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.head-text a{
+    color: seashell;
+    margin-right: 10px;
+}
+
+#mission{
+    background-image: url("images/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    opacity: 0.7;
+    display: inline-flex;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#middle{
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+.mid-im{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+.teas{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.location{
+    position: relative;
+    top: 70px;
+    height: 500px;
+    width: 1200px;
+    background-image: url("images/img-locations-background.jpg");
+    opacity: 0.6;
+}
+
+.footer{
+    position: relative;
+    top: 70px;
+    height: 200px;
+    text-align: center;
+}
+
+.text{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+
+
+.img{
+    opacity: 0.6;
+}
+
+.h4 middle{
+    margin-top: 10px;
+}
+
+.tea img{
+    height: 200px;
+    width: 300px;
+}
+
+.container{
+    background-color: black;
+    text-align: center;
+    width: 280px;
+    height: 280px;
+    flex-wrap: wrap;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loc-im{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#copyriting{
+    position: relative;
+    top: 70px;
+    text-align: left;
+    width: 100%;
+    margin-left: 20px;
+}
