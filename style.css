@@ -1,11 +1,108 @@
 body {
-  background-color: pink;
+  background-color: #D8D5DB;
   font-family: Arial, sans-serif;
+  color: #2D3142;
 }
 
-h2{
+/* Text */
+
+h2, h3{
   text-align: center;
-  color: gray;
-  background-color: cream;
-  border-radius: 20px;
+}
+
+
+/* Header */
+
+.pinned-head{
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  background-color: #EAE8FF;
+  z-index: 5;
+}
+
+/* Main */
+
+.main{
+  position: relative;
+  top: 110px;
+}
+
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.box{
+  height: 240px;
+  width: 280px;
+  margin: 30px;
+}
+
+.box a{
+  color: #D8D5DB;
+  background-color: #2D3142;
+  opacity: 0.9;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 5px 0;
+  position: relative;
+  top: -50%;
+  margin-top: -20px;
+  width: 100%;
+  display: inline-block;
+}
+
+.box a:hover{
+  color: #ADACB5;
+  text-decoration: underline;
+}
+
+
+.art img{
+  width: 280px;
+  height: 240px;
+  opacity: 0.6;
+}
+
+.tea img{
+  width: 280px;
+  height: 240px;
+  opacity: 0.6;
+}
+
+.design img{
+  width: 280px;
+  height: 240px;
+  opacity: 0.6;
+}
+
+/* Footer */
+footer{
+  background-color: #2D3142;
+  width: 100%;
+  height: 90px;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  top: 110px;
+  text-align: left; 
+  color: #EAE8FF;
+  padding: 5px;
+}
+
+
+.social{
+  display: flex;
+  width: 100%;
+}
+
+.social img{
+  height: 30px;
+  width: 30px;
+  margin: 5px;
 }
