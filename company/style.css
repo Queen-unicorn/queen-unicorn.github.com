@@ -1,0 +1,91 @@
+html{
+    font-size: 20px;
+
+}
+
+body{
+    font-family: "Lexend Mega", sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.25rem;
+}
+
+h3{
+    font-size: 0.8rem;
+}
+
+/* Navigation */
+nav a{
+    color: black;
+    font-size: 1.25rem;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Banner */
+.banner{
+    height: 400px;
+    background-image: url("images/skyscrapers.jpg");
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.text-banner{
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    
+}
+
+/* Main */
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfolio-item{
+    margin: 10px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-item img{
+    width: 230px;
+}
+
+.portfolio-item span{
+    margin: 10px;
+    text-align: center;
+}
+
+/* Team */
+.employees{
+    background-image: url("images/blurred-road.jpg");
+    opacity: 0.9;
+    height: 520px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: 800;
+}
+
+.employee img{
+    width: 200px;
+    margin: 20px;
+}
+
+.employee h3{
+    width: 200px;
+    margin: 20px;
+    font-size: 1rem;
+}

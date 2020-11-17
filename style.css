@@ -63,23 +63,12 @@ h2, h3{
 }
 
 
-.art img{
+.box img{
   width: 280px;
   height: 240px;
   opacity: 0.6;
 }
 
-.tea img{
-  width: 280px;
-  height: 240px;
-  opacity: 0.6;
-}
-
-.design img{
-  width: 280px;
-  height: 240px;
-  opacity: 0.6;
-}
 
 /* Footer */
 footer{
